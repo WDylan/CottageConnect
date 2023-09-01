@@ -1,0 +1,175 @@
+.filterContainer {
+  height: auto;
+  padding-bottom: 2.5em;
+  // background-color: green;
+}
+
+
+
+.filters {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 1em;
+  // margin-top: 2em;
+  // margin-bottom: 2em;
+}
+
+
+.filterTitle {
+  color: #004F7B;
+}
+
+.filterFilter {
+  display: flex;
+  margin: auto 2em;
+  font-weight: bold;
+}
+
+.filterCity {
+  display: flex;
+  margin: auto 2em;
+  font-weight: bold;
+}
+
+.filterGite {
+  display: flex;
+  margin: auto 2em;
+
+      a {
+          border: solid 0.1em black;
+      }
+}
+
+
+.mer,
+.montagne,
+.ville,
+.campagne,
+.autres,
+.premier,
+.deuxieme,
+.troisieme,
+.quatrieme,
+.cinquieme {
+  align-items: center;
+  width: 30%;
+  display: flex;
+  cursor: url(./finger.png), auto;
+  flex-direction: column;
+
+}
+
+
+
+.imgFilter {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  margin: auto 1em;
+  width: 75%;
+  // height: 15em;
+}
+
+.mer p,
+.montagne p,
+.ville p,
+.campagne p,
+.autres p {
+  margin: auto 1em;
+  justify-content: center;
+  width: 74%;
+  padding-top: 1.2em;
+  margin-top: -0.2em;
+  padding-bottom: 1.2em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  margin-bottom: 2em;
+  background-color: #E6E6E6;
+  // text-decoration: none;
+  color: #004F7B;
+  font-size: 1.2em;
+  border: solid 0.1em black;
+      
+}
+
+.premier a,
+.deuxieme a,
+.troisieme a,
+.quatrieme a,
+.cinquieme a {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  width: 74%;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  margin-top: -0.3em;
+  // margin-bottom: 2em;
+  background-color: #E6E6E6;
+  text-decoration: none;
+  
+}
+
+
+.premier a span,
+.deuxieme a span,
+.troisieme a span,
+.quatrieme a span,
+.cinquieme a span {
+  margin: 0.5em 0;
+  color: black;
+  border-radius: 1em;
+  // background-color: greenyellow;
+  margin-left: 0.2em;
+  color: #004F7B;
+  font-weight: bold;
+
+}
+
+.imgCarou {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  height: 23.5vh;
+}
+
+.nomGite {
+  display: flex;
+  // justify-content: center;
+  padding-left: 1.4em;
+  align-items: center;
+  height: 2em;
+}
+
+.meaPrix {
+  color: black;
+  font-weight: 200;
+  
+}
+
+
+.grp {
+  width: 10%;
+}
+
+.badge {
+  width: 8%;
+  padding-left: 0.3em;
+}
+
+.comoditeGite {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 1.5em;
+  width: 80%;
+  padding-left: 0.2em;
+}
+
+.prixGite {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 1.5em;
+  width: 80%;
+}
+

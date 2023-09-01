@@ -1,0 +1,31 @@
+.containerPublier {
+    text-align: center;
+    padding-top: 1em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% ;
+    
+    .publishAnnonce {
+        background-image: url(./publierAnnonce.jpg);
+        height: 14.125rem;
+        display: flex;
+        margin-bottom: 3em;
+        width: 100%;
+        // height: 55%;
+        align-items: center;
+        justify-content: center;
+    }
+    h3 {
+        color: white;
+    }
+}
+.publishBtn {
+    font-size: larger;
+    font-weight: bolder;
+    height: 3em;
+    width: 30%;
+    background-color: #004F7B;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}

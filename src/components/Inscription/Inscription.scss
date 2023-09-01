@@ -1,0 +1,131 @@
+.containerInscription {
+  background-image: url(./fondrecherche.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+
+  // @media screen and (max-width:480px) {
+  //     height: 70vh;
+  // }
+
+  // @media screen and (min-width:481px) and (max-width:780px) {
+  //     height: 80vh;
+  // }
+}
+
+.signInScreen {
+  width: 25%;
+  padding: 1.5em 3em;
+  margin: 0 auto;
+  background-color: #004F7B;
+  opacity: 90%;
+  border-radius: 2%;
+
+  // @media only screen and (min-width: 480px) {
+  //     width: 40%;
+  // }
+
+  // @media only screen and (min-width:481px) and (max-width:780px) {
+  //     width: 30%;
+  // }
+}
+
+.inscriptionForm {
+  display: grid;
+  flex-direction: column;
+
+  h3 {
+    font-size: 1.5em;
+    color: azure;
+    margin-bottom: 1em;
+  }
+}
+
+.inputSignIn {
+  color: black;
+  text-align: left;
+  margin-left: 1em;
+}
+
+.signInButton {
+  width: 40%;
+  height: 3.42em;
+  font-weight: bold;
+  background-color: azure;
+  color: #004F7B;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  margin-left: 30%;
+
+  &:hover {
+    background-color: azure;
+    color: #006da8;
+  }
+
+  // @media only screen and (min-width: 480px) {
+  //     width: 30%;
+  //     margin-left: 35%;
+  // }
+
+  // @media only screen and (min-width:481px) and (max-width:780px) {
+  //     width: 25%;
+  //     margin-left: 37.5%;
+  // }
+}
+
+.googleConnexion {
+  margin-bottom: 1.2em;
+  color: azure;
+  font-size: 1.5em;
+
+  svg {
+    font-size: 1.5em;
+  }
+}
+
+.signInPlaceholder {
+  margin-top: 0.5em;
+  color: black;
+  width: 90%;
+  padding: 0.5em;
+  border-color: azure;
+  border-radius: 2em;
+  margin-bottom: 1em;
+  margin-left: 0.8em;
+}
+
+.signInPlaceholder::placeholder {
+  color: azure;
+  font-style: italic;
+  font-size: 100%;
+  padding-left: 1.5em;
+
+  //     @media only screen and (min-width: 480px) {
+  //         width: 80%;
+  //         margin-left: 10%;
+  //     }
+
+  //     @media only screen and (min-width:481px) and (max-width:780px) {
+  //         width: 70%;
+  //         margin-left: 15%;
+  //     }
+}
+
+.signInScreen {
+  text-align: center;
+  color: azure;
+}
+
+.linkLogin {
+  cursor: pointer;
+  text-decoration: underline;
+  color: azure;
+  position: relative;
+  z-index: 1;
+}

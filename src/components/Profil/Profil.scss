@@ -1,0 +1,97 @@
+.containerProfil {
+    // margin-top: 13em;
+    display: flex;
+    height: 85vh;
+    z-index: 0;
+}
+
+.menuProfil {
+    width: 100%;
+    border-right-style:outset ;
+}
+
+.contentProfil {
+    width: 150%;
+}
+
+.menuProfil li {
+    list-style: none;
+}
+
+.menuProfil a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.3s;
+    font-size: 1.6em;
+    border-radius: 0.5em;
+    margin: 1em 0.5em;
+    width: 75%;
+}
+
+.menuProfil a:hover {
+    background-color: #E6E6E6;
+    border-radius: 0.5em;
+    width: 75%;
+}
+
+
+.menuProfil a.active {
+    background-color: #ccc;
+}
+
+
+.contentProfil input {
+    margin: 0.5em 0;
+    border: none;
+    background-color: #E6E6E6;
+    border-radius: 0.5em;
+    width: 85%;
+    height: 3em;
+}
+
+.formProfil {
+    padding-top: 1em;
+}
+
+.formProfil li {
+    margin: 1em;
+    color: #000;
+    list-style: none;
+}
+
+.formProfil li label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.buttonProfil {
+    width: 25%;
+    height: 2em;
+    border-radius: 0.5em;
+    text-align: center;
+    margin-left: 40%;
+    background-color: #004F7B;
+    color: #FFFFFF;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.deleteTxt {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 4em 0;
+}
+
+.buttonProfilDelete {
+    width: 80%;
+    height: 2em;
+    border-radius: 0.5em;
+    text-align: center;
+    margin-left: 10%;
+    background-color: #004F7B;
+    color: #FFFFFF;
+    font-size: 2em;
+    font-weight: bold;
+}

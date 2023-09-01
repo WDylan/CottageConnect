@@ -1,0 +1,239 @@
+.searchContainer {
+  height: 50vh;
+  padding: 4em;
+  background-image: url(./fondrecherche.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% ;
+  // border: solid;
+ }
+ 
+ /* CARTE INTERACTIVE */
+
+ .mapImage {
+   width: 35%;
+   float: right;
+   height: 22.5em;
+  //  background: #AFA8A8;
+   padding-top: 1em;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+ }
+
+ .mapImage path {
+   fill: #004F7B;
+   stroke: #fff;
+   stroke-width: 0.1em;
+   transition: fill color 0.3s;
+ }
+
+ .mapImage path:hover {
+   fill: rgb(0, 17, 123);
+   stroke: #fff;
+   stroke-width: 0.1em;
+   transition: fill 0.3s;
+ }
+
+ /* BOUTONS ET INPUTS/LISTES */
+
+ .infoDestination {
+  //  border: solid;
+   width: 80%;
+   height: 23.5em;
+   border-radius: 15px;
+   margin-right: auto;
+   margin-left: auto;
+
+   display: flex;
+ }
+
+ svg a {
+  cursor: pointer;
+ }
+
+ .conteneurSearch {
+   display: flex;
+   width: 32em;
+   height: 3em;
+ }
+
+ #depart,
+ #arrivee {
+   height: 3.5em
+ }
+
+ .infoEcrit {
+   width: 75%;
+   align-items: center;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ .titreSearch {
+   text-align: center;
+   font-size: 1.3em;
+   color: white;
+ }
+
+ .champSearch{
+   text-align: center;
+   border: none;
+   border-radius: 2em;
+   height: 2em;
+   font-size: 1em;
+   font-weight: bold;
+   background-color: #E6E6E6;
+   color: black;
+   width: 32em;
+   text-decoration: none;
+  }
+  
+ .champSearch::placeholder {
+   color: black;
+ }
+
+ .vert {
+  background: #004F7B; }
+
+ .boutonVert {
+   text-decoration: none;
+   color: #fff;
+   line-height: 2em;
+ }
+
+ .champSearchLabel {
+   position: relative;
+   width: 100%;
+
+ }
+
+ .champSearchLabel input[type="date"] {
+   opacity: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   cursor: pointer;
+   
+ }
+
+ .champSearch:focus {
+   border: 2px solid black;
+ }
+
+ input[type="date"]::-webkit-calendar-picker-indicator {
+   background-image: url(../../../public/icones/calendrier.png);
+   /* Remplacez par l'URL de votre icône */
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   width: 1.75rem;
+   /* Ajustez la taille de l'icône selon vos besoins */
+   height: 1.75rem;
+   /* padding-right: 1em; */
+  //  border: solid ;
+   border-radius: 50%;
+  //  background-color: green;
+   padding: 1em;
+   cursor: pointer;
+ }
+
+ .champSearchLabel:nth-child(1) {
+   margin-right: 1em;
+ }
+
+ /* DATE */
+
+ .customDate {
+   position: relative;
+   display: inline-block;
+ }
+
+ .customDate label {
+   position: absolute;
+   /* top: 0; */
+   /* left: 0; */
+   /* pointer-events: none; */
+   padding: 0.5em;
+   /* font-size: 1em; */
+   background: #E6E6E6;
+   color: black;
+   font-weight: bold;
+   border-radius: 2em;
+   transition: all 0.3s ease;
+ }
+
+ .customDate input[type="date"] {
+   /* padding: 0.5em; */
+   /* font-size: 1em; */
+   background: #E6E6E6;
+   color: black;
+   border: none;
+   border-radius: 2em;
+ }
+
+ .customDate input[type="date"]:focus+label,
+ .customDate input[type="date"]:valid+label {
+   transform: translateX(-100%);
+ }
+
+ .labelDate {
+   z-index: 1;
+   background-color: #E6E6E6;
+font-weight: bold;
+   border-radius: 2em;
+   height: 2em;
+   top: -0.1em;
+   left: -0.1em;
+   font-size: 1em;
+   color: white;
+   width: 14.8em;
+   text-decoration: none;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .cd1,
+ .cd2 {
+   visibility: visible;
+ }
+
+ .cd1Hidden,
+ .cd2Hidden {
+   visibility: hidden;
+ }
+
+
+ /* CHEVRON BOUTON */
+
+ .chevron::before {
+   border-style: solid;
+   border-width: 0.15em 0.15em 0 0;
+   content: '';
+   display: inline-block;
+   height: 0.28em;
+   left: 0.15em;
+   position: relative;
+   transform: rotate(-45deg);
+   vertical-align: middle;
+   width: 0.28em;
+   /* top: 0.15em; */
+ }
+
+ .chevron.bottom:before {
+   top: 0;
+   transform: rotate(135deg);
+ }
+
+ .chevron {
+   position: absolute;
+   top: 50%;
+   right: 0.5em;
+   /* Ajustez la valeur selon vos besoins */
+   transform: translate(0, -50%);
+ }

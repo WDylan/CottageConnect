@@ -1,0 +1,81 @@
+.containerForm {
+    width: 100%;
+
+    .formTitle {
+        text-align: center;
+        // margin-bottom: 2em;
+        color: white;
+        padding-bottom: 1em;
+        font-size: 1.5em;
+    }
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% ;
+}
+
+.inputFormulaires {
+    display: flex;
+    justify-content: center;
+    // margin-bottom: em;
+}
+
+.inputFormulaire {
+    font-weight: bold;
+    width: 20%;
+    background-color: rgba(230, 230, 230, 0.9);
+    text-align: center;
+    height: 4.5em;
+    border: none;
+    border-radius: 0.8em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.inputFormulaire::placeholder {
+    color: black;
+}
+
+
+.textMessages {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.message {
+    background-color: rgba(230, 230, 230, 0.9);
+    width: 65.5%;
+    min-height: 20em;
+    border-radius: 10px;
+    border: none;
+    resize: both;
+
+}
+.message::placeholder {
+    padding-top: 3em;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 1.3em;
+}
+
+.buttonSubmits {
+    display: flex;
+    justify-content: center;
+    margin-top: -1em;
+}
+
+.buttonSubmit {
+    width: 15%;
+    height: 3em;
+    border-radius: 0.8em;
+    font-size: 1.3em;
+    border: none;
+    font-weight: bold;
+    color: azure;
+    background-color: #004F7B;
+}

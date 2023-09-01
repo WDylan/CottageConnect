@@ -1,0 +1,111 @@
+.caseGlobal {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+.caseInfos {
+    border-radius: 0.7em;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    background: #E6E6E6;
+}
+
+.ddeAdresse {
+    font-weight: bold;
+}
+
+.adresse {
+    width: 80%;
+    border-radius: 0.7em;
+    height: 3.5em;
+    border: none;
+    padding-left: 1.5em;
+}
+
+iframe {
+    width: 30em;
+    height: 30em;
+    border: none;
+}
+
+
+.titre {
+    text-align: center;
+    color: #004F7B;
+}
+
+.autresInfos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 1em;
+    width: 40%;
+    height: 7em;
+    line-height: 1.5em;
+    align-items: center;
+}
+
+.autresInfos2 .labels,
+.autresInfos2 .inputs {
+    display: flex;
+    flex-direction: column;
+}
+.autresInfos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button-minus {
+    right: 2em;
+}
+
+.autreLabel {
+    display: flex;
+    flex-direction: column;
+}
+
+.autreInput {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.radio {
+    border: solid;
+}
+
+.infosup {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 83%;
+}
+
+.autresInfos input[type="button"] {
+    border-radius: 50%;
+    background-color: #a09c9c;
+    border: none;
+}
+
+.autresInfos input[type="number"] {
+    width: 1em;
+    border: none;
+    padding-left: 0.5em;
+}
+
+.quantity-field::-webkit-inner-spin-button,
+.quantity-field::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+//   margin: 0;
+//   cursor: pointer;
+}
+.labels {
+    text-align: left;
+}

@@ -1,0 +1,33 @@
+.carousel {
+  position: relative;
+  width: 100%;
+}
+
+.imgCarou {
+  position: relative;
+  z-index: 1;
+  background-color: green;
+  width: 75%;
+}
+
+.arrow {
+  padding-bottom: 20%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  margin-left: 2em;
+  margin-right: 2em;
+  z-index: 2;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.arrowLeft {
+  left: 0;
+}
+
+.arrowRight {
+  right: 0;
+}
